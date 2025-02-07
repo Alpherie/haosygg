@@ -8,4 +8,4 @@
 bashio::log.info "Starting yggdrasil..."
 
 ## Run your program
-exec /usr/bin/yggdrasil -useconffile /config/yggdrasil.conf -loglevel debug
+exec /usr/bin/yggdrasil -useconffile /config/yggdrasil.conf -logto syslog -loglevel debug
