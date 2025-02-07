@@ -40,3 +40,4 @@ RUN cp yggdrasilctl /usr/bin/
 #COPY yggdrasil.conf $GOPATH
 
 #ENTRYPOINT [ "/usr/bin/yggdrasil", "-useconffile", "/config/yggdrasil.conf", "-logto", "/config/yggdrasil.log", "-loglevel", "debug" ]
+ENTRYPOINT ["/init"]
