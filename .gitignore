@@ -1,0 +1,2 @@
+# Prevent accident committing your config to git
+yggdrasil.conf
