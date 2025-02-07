@@ -1,5 +1,5 @@
 name: Yggdrasil for HAOS
-version: "0.1.20"
+version: "0.1.21"
 slug: haosygg
 description: Yggdrasil mesh network addon for Home Assistant OS
 url: "https://github.com/Alpherie/haosygg"
@@ -14,7 +14,7 @@ map:
   - type: share
     read_only: False
 apparmor: false
-hassio_api: true
+host_network: true
 privileged:
   - NET_ADMIN
 devices:
