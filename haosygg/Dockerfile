@@ -1,9 +1,10 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:17.1.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:stable
 FROM ${BUILD_FROM}
 
 ARG GOLANG_VERSION=1.23.5
 
-RUN apk update && apk add --no-cache git make musl-dev go openssl-dev ca-certificates && update-ca-certificates
+RUN apk update && apk add --no-cache git make musl-dev go  ca-certificates && update-ca-certificates
+#openssl-dev
 
 # Configure Go
 RUN wget https://dl.google.com/go/go$GOLANG_VERSION.src.tar.gz && tar -C /usr/local -xzf go$GOLANG_VERSION.src.tar.gz
