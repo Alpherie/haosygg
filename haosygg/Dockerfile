@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:17.1.1
 FROM ${BUILD_FROM}
 
 ARG GOLANG_VERSION=1.23.5
