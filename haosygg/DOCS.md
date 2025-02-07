@@ -1,5 +1,5 @@
 ### Yggdrasil
 
-Yggdrasil - децентрализованная меш-сеть
+Yggdrasil - decentralized mesh network.
 
-Для работы требуется файл настроек yggdrasil.conf 
+You need `yggdrasil.conf` file in your `addon_config/*_haosygg`. You need to generate it first on some other device and move it to your haos with ssh or samba. 
