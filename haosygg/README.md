@@ -8,4 +8,4 @@ You need a config file, read the docs for more explanation.
 
 #### How to get my IP
 
-Open logs, scroll to the up and find IP after "Yggdrasil IP:"
+Open logs, scroll up and find IP after "Your IPv6 address is"

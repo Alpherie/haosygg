@@ -1,7 +1,7 @@
 # HAOSYGG
 Yggdrasil mesh network addon for HomeAssistant OS
 
-Currently work in progress, no apparmor, tested on amd64 device only
+Currently work in progress, added apparmor, tested on amd64 device only
 
 Yggdrasil Project https://yggdrasil-network.github.io/ 
 
