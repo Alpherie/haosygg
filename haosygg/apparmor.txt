@@ -3,9 +3,16 @@
 profile haosygg flags=(attach_disconnected,mediate_deleted) {
   #include <abstractions/base>
 
-  # Capabilities
+  # Capabilities for network
+  capability net_broadcast,
+  capability net_admin,
+  capability setuid,
+  capability setgid,
   file,
   signal (send) set=(kill,term,int,hup,cont),
+
+  #network device
+  /dev/net/tun rw,
 
   # S6-Overlay
   /init ix,
